@@ -2010,6 +2010,14 @@
         "structure-test.yaml"
       ],
       "url": "http://json.schemastore.org/container-structure-test"
+    },
+    {
+      "name": "Windows Package Manager",
+      "description": "Windows Package Manager Manifest file",
+      "url": "http://json.schemastore.org/winget-pkgs",
+      "fileMatch": [
+        "manifests/*/*/*.yaml"
+      ]
     }
   ]
 }
